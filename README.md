@@ -91,11 +91,12 @@ terraform destroy
 
 ## Future Improvements
 
-Some things I'd like to add:
+Some things to add:
 
 * CloudWatch logging for cluster audit logs
 * Pod security policies or Pod Security Standards
 * Network policies for restricting pod-to-pod communication
 * Automated backup solution for cluster state
 * CI/CD pipeline for deploying applications to the cluster
+
 
