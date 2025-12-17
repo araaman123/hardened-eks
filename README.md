@@ -88,9 +88,6 @@ Remember to destroy the infrastructure when you're done testing:
 terraform destroy
 ```
 
-## What I Learned
-
-This project helped me understand how to design secure cloud infrastructure using Terraform. I learned about VPC design patterns, the differences between public and private subnets, and how to properly configure IAM roles for Kubernetes workloads. The multi-AZ setup taught me about high availability patterns in AWS.
 
 ## Future Improvements
 
@@ -101,3 +98,4 @@ Some things I'd like to add:
 * Network policies for restricting pod-to-pod communication
 * Automated backup solution for cluster state
 * CI/CD pipeline for deploying applications to the cluster
+
